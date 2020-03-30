@@ -15,7 +15,7 @@ module.exports = {
   //it is base on https://github.com/vuejs/eslint-config-vue
   rules: {
     "vue/max-attributes-per-line": [
-      2,
+      0,
       {
         singleline: 10,
         multiline: {
@@ -30,13 +30,13 @@ module.exports = {
     "vue/no-v-html": "off",
     "accessor-pairs": 2,
     "arrow-spacing": [
-      2,
+      0,
       {
         before: true,
         after: true
       }
     ],
-    "block-spacing": [2, "always"],
+    "block-spacing": [0, "always"],
     "brace-style": [
       2,
       "1tbs",
@@ -270,6 +270,6 @@ module.exports = {
         objectsInObjects: false
       }
     ],
-    "array-bracket-spacing": [2, "never"]
+    "array-bracket-spacing": [0, "never"]
   }
 };

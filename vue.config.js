@@ -33,9 +33,9 @@ module.exports = {
     port: port,
     open: true,
     proxy: {
-      "/api": {
+      "/dev-api": {
         target: "http://49.233.43.46:8513",
-        pathRewrite: { "^/api": "" }
+        pathRewrite: { "^/dev-api": "" }
       }
     },
     overlay: {
